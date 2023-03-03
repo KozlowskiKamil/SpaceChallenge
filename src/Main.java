@@ -1,3 +1,5 @@
+import java.net.Socket;
+
 public class Main {
     public static void main(String[] args) {
         Rocket rocke = new Rocket(100, 10000, 18000, 5, 5);
@@ -6,6 +8,7 @@ public class Main {
         rocke.canCarry(item);
         System.out.println(rocke.canCarry(item));
         System.out.println(item.getWeight());
+        System.out.println("");
 
 /*        Rocket rocket = new Rocket();
         Item item = new Item("Coś", 9999999);
