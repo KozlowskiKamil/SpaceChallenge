@@ -7,6 +7,13 @@
     <list default="true" id="8eabacb3-12c8-490d-acb5-c583c84b2ac2" name="Changes" comment="Reset old commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SpaceChallenge/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpaceChallenge/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpaceChallenge/Rocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpaceChallenge/Rocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpaceChallenge/U1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpaceChallenge/U1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpaceChallenge/U2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpaceChallenge/U2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/U1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/U1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/U2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/U2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677662392225</updated>
-      <workItem from="1677943212427" duration="61000" />
-      <workItem from="1677960763285" duration="1835000" />
-      <workItem from="1678026264785" duration="10000" />
-      <workItem from="1678117946562" duration="18000" />
+      <workItem from="1678118620809" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="Reset">
       <created>1677843495537</created>
