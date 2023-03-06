@@ -3,17 +3,15 @@ public class Rocket implements SpaceShip{
   int rocketCost;
   int rocketWeightKg;
   int maxWeightWithCargoKg;
-  double chanceLaunchExplosion;
-  double chanceLandingCrash;
+  int currentWeight = rocketWeightKg;
 
-  public Rocket(int rocketCost, int rocketWeightKg, int maxWeightWithCargoKg, double chanceLaunchExplosion, double chanceLandingCrash) {
+
+  public Rocket(int rocketCost, int rocketWeightKg, int maxWeightWithCargoKg) {
     this.rocketCost = rocketCost;
     this.rocketWeightKg = rocketWeightKg;
     this.maxWeightWithCargoKg = maxWeightWithCargoKg;
-    this.chanceLaunchExplosion = chanceLaunchExplosion;
-    this.chanceLandingCrash = chanceLandingCrash;
-  }
 
+  }
 
   @Override
     public boolean launch() {
@@ -33,16 +31,11 @@ public class Rocket implements SpaceShip{
     }
 
     @Override
-    public void carry(Item item) {
+    public void carry(Item item) { // TODO: 06.03.2023  
       item.getWeight();
-      rocketWeightKg += item.getWeight();
-      item.setWeight(rocketWeightKg);
+      currentWeight = currentWeight + item.getWeight();
+      item.setWeight(currentWeight);
+      System.out.println("metoda carry item - currentWeight " + currentWeight + " rocketWeightKg " + rocketWeightKg);
 
     }
-    //Create a class Rocket that implements the SpaceShip Interface and hence implements all the methods above.
-
-/*    launch and land methods in the Rocket class should always return true. When U1 and U2 classes extend the Rocket class they will override these methods to return true or false based on the actual probability of each type.
-    carry and canCarry should be implemented here and will not need to be overridden in the U1 and U2 classes*/
-//metody startu i lądowania w klasie Rocket powinny zawsze zwracać wartość true. Kiedy klasy U1 i U2 rozszerzają klasę Rocket, zastąpią te metody, aby zwrócić prawdę lub fałsz na podstawie rzeczywistego prawdopodobieństwa każdego typu.
-//    carry i canCarry powinny zostać zaimplementowane tutaj i nie będą musiały być zastępowane w klasach U1 i U2*/
 }
