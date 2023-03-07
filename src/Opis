@@ -15,15 +15,29 @@ Stwórz klasy U1 i U2, które rozszerzają klasę Rocket i nadpisują metody lan
 
 CZĘŚĆ 2: Symulacja
 Stwórz klasę Simulation, która jest odpowiedzialna za odczyt danych dotyczących przedmiotów i uzupełnienie rakiet. Klasa Simulation powinna zawierać następujące metody:
+/////////////////////////////////////////////////////////
 
-loadItems: ta metoda wczytuje wszystkie przedmioty z pliku tekstowego i zwraca ArrayList przedmiotów:
-Każda linia w pliku tekstowym składa się z nazwy przedmiotu, po której następuje =, a następnie waga przedmiotu w kg. Na przykład:
+
+loadItems: ta metoda wczytuje wszystkie przedmioty z pliku tekstowego i zwraca ArrayListę przedmiotów. Każda linia w pliku tekstowym składa się z nazwy przedmiotu,
+po której następuje znak równości i jego waga w kilogramach. Na przykład:
 habitat=100000
 colony=50000
 food=50000
-Metoda loadItems powinna czytać plik tekstowy linia po linii i tworzyć obiekt Item dla każdego przedmiotu, a następnie dodać go do ArrayList przedmiotów. Metoda powinna następnie zwrócić ten ArrayList.
-loadU1: ta metoda pobiera ArrayList przedmiotów zwrócony przez loadItems i zaczyna tworzyć rakiety U1. Najpierw próbuje wypełnić jedną rakietę możliwie dużą ilością przedmi
+Metoda loadItems powinna czytać plik tekstowy linia po linii, tworzyć obiekt przedmiotu dla każdej linii, a następnie dodawać go do ArrayListy przedmiotów.
+Metoda powinna zwrócić tę ArrayListę.
 
+loadU1: ta metoda przyjmuje ArrayListę przedmiotów zwróconą z metody loadItems i zaczyna tworzyć rakiety U1.
+Najpierw próbuje wypełnić jedną rakietę jak największą ilością przedmiotów przed utworzeniem nowego obiektu rakiety i wypełnieniem kolejnego, dopóki wszystkie przedmioty nie zostaną załadowane.
+Metoda zwraca ArrayListę tych rakiet U1, które są w pełni załadowane.
+
+loadU2: ta metoda również przyjmuje ArrayListę przedmiotów i zaczyna tworzyć rakiety U2, wypełniając je tymi samymi przedmiotami, co w przypadku rakiet U1,
+dopóki wszystkie przedmioty nie zostaną załadowane.
+Metoda zwraca ArrayListę tych rakiet U2, które są w pełni załadowane.
+
+runSimulation: ta metoda przyjmuje ArrayListę rakiet i wywołuje metody launch i land dla każdej z rakiet w ArrayList.
+Za każdym razem, gdy rakieta eksploduje lub rozbiła się (tj. gdy launch lub land zwróci false), musi wysłać tę rakietę ponownie.
+W międzyczasie śledzi całkowity budżet wymagany do bezpiecznego wysłania każdej rakiety na Marsa.
+Metoda runSimulation zwraca całkowity budżet wymagany do wysłania wszystkich rakiet (w tym tych, które uległy awarii).
 
 
 Rocket Specifications
