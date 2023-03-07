@@ -1,4 +1,4 @@
-public class U1 extends Rocket{
+public class U1 extends Rocket {
 
     double cargoCarried = rocketWeightKg - currentWeight;
     double cargoLimit = maxWeightWithCargoKg - rocketWeightKg;
@@ -7,6 +7,7 @@ public class U1 extends Rocket{
     public U1(int rocketCost, int rocketWeightKg, int maxWeightWithCargoKg) {
         super(rocketCost, rocketWeightKg, maxWeightWithCargoKg);
     }
+
     @Override
     public boolean launch() {
         double chanceOfExplosion = 0.05 * (cargoCarried / cargoLimit);
@@ -14,6 +15,7 @@ public class U1 extends Rocket{
         return Math.random() > chanceOfExplosion;
 
     }
+
     @Override
     public boolean land() {
         double chanceOfCrash = 0.01 * (cargoCarried / cargoLimit);
