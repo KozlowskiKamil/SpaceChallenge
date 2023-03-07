@@ -3,7 +3,7 @@ public class Rocket implements SpaceShip{
   int rocketCost;
   int rocketWeightKg;
   int maxWeightWithCargoKg;
-  int currentWeight = rocketWeightKg;
+ // int currentWeight;   // = currentWeight + rocketWeightKg;
 
 
   public Rocket(int rocketCost, int rocketWeightKg, int maxWeightWithCargoKg) {
@@ -25,17 +25,19 @@ public class Rocket implements SpaceShip{
 
     @Override
     public boolean canCarry(Item item) {
-      if (item.getWeight() < maxWeightWithCargoKg) {
+      if (item.getWeight() > maxWeightWithCargoKg || rocketWeightKg > maxWeightWithCargoKg ) {
+        System.out.println("za duża waga");
+        return false;
+      } else {
+        System.out.println("waga ok");
         return true;
-      } else return false;
+      }
     }
 
-    @Override
-    public void carry(Item item) { // TODO: 06.03.2023  
-      item.getWeight();
-      currentWeight = currentWeight + item.getWeight();
-      item.setWeight(currentWeight);
-      System.out.println("metoda carry item - currentWeight " + currentWeight + " rocketWeightKg " + rocketWeightKg);
 
+  @Override
+    public void carry(Item item) {
+      rocketWeightKg += item.getWeight();
+    System.out.println("rocketWeightKg " + rocketWeightKg);
     }
 }

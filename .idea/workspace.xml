@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eabacb3-12c8-490d-acb5-c583c84b2ac2" name="Changes" comment="Reset old commit">
+      <change afterPath="$PROJECT_DIR$/Baza napraw/Baza napraw.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpaceChallenge/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpaceChallenge/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpaceChallenge/Rocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpaceChallenge/Rocket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpaceChallenge/U1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpaceChallenge/U1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpaceChallenge/U2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpaceChallenge/U2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rocket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/U1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/U1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/U2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/U2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +35,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< HEAD
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/kozlowsk/IdeaProjects/Guess The Movie",
+    "settings.editor.selected.configurable": "preferences.editor"
+=======
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/kamil/Desktop/projekty/SpaceChallenge",
     "node.js.detected.package.eslint": "true",
@@ -50,6 +48,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
+>>>>>>> e546ea8a57a4efa6bd17871befecfcf5b72a6b38
   }
 }]]></component>
   <component name="RunManager">
