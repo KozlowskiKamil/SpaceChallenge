@@ -70,6 +70,13 @@ launch and land methods in the Rocket class should always return true. When U1 a
 carry and canCarry should be implemented here and will not need to be overridden in the U1 and U2 classes
 Create classes U1 and U2 that extend the Rocket class and override the land and launch methods to calculate the corresponding chance of exploding and return either true or false based on a random number using the probability equation for each.
 
+
+
+
+
+
+
+
 PART 2: The simulation
 Create a Simulation class that is responsible for reading item data and filling up the rockets. The Simulation class should include these methods:
 

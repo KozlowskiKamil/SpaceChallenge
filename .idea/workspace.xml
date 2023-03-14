@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eabacb3-12c8-490d-acb5-c583c84b2ac2" name="Changes" comment="Reset old commit">
-      <change afterPath="$PROJECT_DIR$/Baza napraw/Baza napraw.iml" afterDir="false" />
+    <list default="true" id="5cf18dcf-d5c7-4535-bab9-5321fabb2ad9" name="Changes" comment="Reset">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpaceChallenge/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpaceChallenge/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpaceChallenge/Opis" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpaceChallenge/Opis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpaceChallenge/Simulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpaceChallenge/Simulation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Opis" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Simulation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,13 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="Kamil Kozlowski &lt;kamil_kozlowski@jabil.com&gt;" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,20 +36,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-<<<<<<< HEAD
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/kozlowsk/IdeaProjects/Guess The Movie",
-    "settings.editor.selected.configurable": "preferences.editor"
-=======
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/kamil/Desktop/projekty/SpaceChallenge",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
->>>>>>> e546ea8a57a4efa6bd17871befecfcf5b72a6b38
   }
 }]]></component>
   <component name="RunManager">
@@ -68,12 +63,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8eabacb3-12c8-490d-acb5-c583c84b2ac2" name="Changes" comment="" />
+      <changelist id="5cf18dcf-d5c7-4535-bab9-5321fabb2ad9" name="Changes" comment="Reset" />
       <created>1677662392225</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677662392225</updated>
       <workItem from="1678118620809" duration="26000" />
+      <workItem from="1678540188824" duration="181000" />
+      <workItem from="1678811976682" duration="5810000" />
     </task>
     <task id="LOCAL-00001" summary="Reset">
       <created>1677843495537</created>

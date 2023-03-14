@@ -1,5 +1,6 @@
 import java.io.IOException;
 import java.net.Socket;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -14,12 +15,12 @@ public class Main {
         System.out.println(u1.launch());
 
         Simulation simulation = new Simulation();
-        simulation.loadItems();
-        System.out.println(simulation.loadItems());
+        List<Item> phase1Item = simulation.loadItems("src/phase-1.txt");
+        List<Item> phase2Item = simulation.loadItems("src/phase-2.txt");
 
-
-
-
+        simulation.loadU1(phase1Item);
+        simulation.loadU2(phase2Item);
+        System.out.println(phase1Item);
 
 
 
