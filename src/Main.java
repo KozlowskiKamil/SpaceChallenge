@@ -21,8 +21,6 @@ public class Main {
         simulation.loadU1(phase1Item);
         simulation.loadU2(phase2Item);
         System.out.println(phase1Item);
-
-
-
+        
     }
 }
